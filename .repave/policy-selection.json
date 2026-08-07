@@ -1,0 +1,17 @@
+{
+  "profile": "opa-focused",
+  "pack_source": "repave-opa-pack",
+  "enabled_rules": [
+    "opa:allocation_tags",
+    "opa:destructive_changes"
+  ],
+  "checkov_skip_checks": [],
+  "opa_rego_files": [
+    "allocation_tags.rego",
+    "destructive_changes.rego"
+  ],
+  "azure_definition_files": [],
+  "pack_versions": {
+    "opa": "1.0.0"
+  }
+}
